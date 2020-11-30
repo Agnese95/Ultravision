@@ -67,37 +67,10 @@ p, li, textarea, label, input, select {
   margin-bottom: 64px;
 }
 
-.bloc{
-  display: flex;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.bloc1{
-  flex-basis: 0;
-  flex-grow: 1;
-  width: 640px;
-  height: 33px;
-  font-style: normal;
-  font-size:24px;
-  color: #231f20;
-  text-align: center;
-  font-weight: Bold;
-  margin:0 31px 34px 0;
+h6 {
   /* Default font, size, and margins */
 }
 
-.description{
-  font-size: 16px;
-  color: #231f20;
-  text-align: justify;
-  font-style: normal;
-  font-weight: lighter;
-}
-
-.ordinateur-1{
-  align-items: right;
-}
 
 a {
   /* Link color */
