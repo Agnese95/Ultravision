@@ -61,30 +61,41 @@ p, li, textarea, label, input, select {
   text-align: center;
   color: #231f20;
   font-size: 40px;
-  margin-left: 216px;
-  margin-right: 216px;
+  margin-left: 150px;
+  margin-right: 150px;
   margin-top: 64px;
   margin-bottom: 64px;
 }
 
-.bloc{
+.bloc1{
   display: flex;
   max-width: 1200px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.bloc1{
-  flex-basis: 0;
+.bloc1_contenu,
+.bloc1_image{
+  flex-basis: 320px;
   flex-grow: 1;
-  width: 640px;
-  height: 33px;
+}
+
+.bloc1_contenu{
+  padding-top: 0;
+  padding-right: 32px;
+  padding-bottom: 32px;
+  padding-left: 32px;
   font-style: normal;
   font-size:24px;
   color: #231f20;
   text-align: center;
-  font-weight: Bold;
-  margin:0 31px 34px 0;
-  /* Default font, size, and margins */
+}
+
+.sub-title{
+  font-size: 24px;
+  color: #231f20;
+  font-weight: 700;
+  text-align: center;
 }
 
 .description{
@@ -92,15 +103,64 @@ p, li, textarea, label, input, select {
   color: #231f20;
   text-align: justify;
   font-style: normal;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
-.ordinateur-1{
-  align-items: right;
+.bloc1_image{
+  background-image: url(../bg-yellow_2020-11-30/bg-yellow.png);
+  background-position: left bottom;
+  background-size: auto 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 6px;
 }
 
-a {
-  /* Link color */
+.ordinateur1{
+  display: block;
+  max-width: 70%;
+  mix-blend-mode: darken;
+}
+
+.button {
+  color: #fcce00;
+  font-size: 20px;
+  border: solid 4px #fcce00;
+  border-radius: 15px;
+  display: block;
+  padding: 10px 32px;
+  text-align: center;
+  margin: 30px 31px 22px 455px;
+}
+
+.bloc_red{
+  background-image: url(../bg-red_2020-12-01/bg-red.png) ;
+}
+
+.ordi2{
+  display: block;
+  max-width: 70%;
+  mix-blend-mode: darken;
+}
+.description2{
+  color: #231f20;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.bullet_points{
+  font-size:16px;
+  text-align: center;
+}
+
+.button2 {
+  color: #ff6b00;
+  font-size: 20px;
+  border: solid 4px #ff6b00;
+  border-radius: 15px;
+  display: block;
+  padding: 10px 32px;
+  margin: 30px 31px 22px 455px;
 }
 
 a:hover {
