@@ -67,6 +67,7 @@ p, li, textarea, label, input, select {
   margin-bottom: 64px;
 }
 
+
 .bloc1{
   display: flex;
   max-width: 1200px;
@@ -130,11 +131,11 @@ p, li, textarea, label, input, select {
   display: block;
   padding: 10px 32px;
   text-align: center;
-  margin: 30px 31px 22px 455px;
+  max-width: 200px;
 }
 
-.bloc_red{
-  background-image: url(../bg-red_2020-12-01/bg-red.png) ;
+.bloc_orange{
+  background-image: url(../bg-orange_2020-12-01/bg-orange.png) ;
 }
 
 .ordi2{
@@ -142,6 +143,7 @@ p, li, textarea, label, input, select {
   max-width: 70%;
   mix-blend-mode: darken;
 }
+
 .description2{
   color: #231f20;
   font-size: 16px;
@@ -160,7 +162,67 @@ p, li, textarea, label, input, select {
   border-radius: 15px;
   display: block;
   padding: 10px 32px;
-  margin: 30px 31px 22px 455px;
+  margin-left: auto;
+  max-width: 200px;
+}
+
+.intro2{
+  font-size: 40px;
+  color: #231f20;
+  text-align: center;
+}
+
+.banner_red{
+  background-image: url(../bg-red_2020-12-01/bg-red.png);
+  display: flex;
+  width:100%;
+  padding-bottom: 32px;
+  padding-left: 32px;
+}
+
+.arcade{
+  color: #ffffff;
+  font-size: 32px;
+  mix-blend-mode: darken;
+}
+
+.button3{
+  color: ##ffffff;
+  font-size: 20px;
+  border: solid 4px #ffffff;
+  border-radius: 15px;
+  display: block;
+  padding: 10px 32px;
+  margin-left: auto;
+  max-width: 200px;
+}
+
+.banner_image_red{
+  background-image: url(../bg-red_2020-12-01/bg-red.png);
+  background-position: center;
+  background-size: auto 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 6px;
+}
+
+
+.stereo,
+.tv{
+  display: block;
+  max-width: 70%;
+  mix-blend-mode: darken;
+}
+
+.banner_image_violet{
+  background-image: url(../bg-violet_2020-12-01/bg-violet.png);
+  background-position: center;
+  background-size: auto 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 6px;
 }
 
 a:hover {
