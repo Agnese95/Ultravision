@@ -25,6 +25,13 @@ p, li, textarea, label, input, select {
    margin-bottom: 8px ;
 }
 
+@media screen and (min-width:780px) {
+  .ultravision{
+    font-size: 88px;
+  }
+}
+  
+
 .title2 {
   background-color: #ff6b00;
   margin-top: 0px;
@@ -34,6 +41,12 @@ p, li, textarea, label, input, select {
   text-align: center;
   padding-top: 6px;
   padding-bottom: 5px;
+}
+
+@media screen and (min-width:780px){
+  .title2{
+    font-size: 24px;
+  }
 }
 
 .bannièrerouge {
@@ -258,6 +271,75 @@ p, li, textarea, label, input, select {
   align-items: flex-end;
   margin-top: 6px;
 }
+
+.container_releases{
+  background-color: #231f20;
+  background-position: center;
+  padding: 64px 30px 597px 34px;
+  }
+
+.container_images{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 32px;
+}
+
+.title_realeses{
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  font-family: 80px;
+}
+
+.game_image{
+  position:relative;
+  max-width: 320px;
+  margin: auto;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.game_content{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.81);
+  border-radius: 15px;
+  font-size: 16px;
+  text-align: center;
+  padding:16px;
+}
+
+.game_category{
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.game_title{
+  color:#fcce00;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.game_basic{
+  color:#ff6b00;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.game_description{
+  color:#ffffff;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+
+
 
 
 a:hover {
