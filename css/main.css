@@ -172,22 +172,34 @@ p, li, textarea, label, input, select {
   text-align: center;
 }
 
+.arcade,
+.tv,
+.computer{
+  color: #ffffff;
+  font-size: 32px;
+  margin-left: 32px;
+  margin-right: 66px;
+  text-align: left;
+}
+
 .banner_red{
   background-image: url(../bg-red_2020-12-01/bg-red.png);
   display: flex;
   width:100%;
-  padding-bottom: 32px;
-  padding-left: 32px;
 }
 
-.arcade{
+.info_red,
+.info_violet,
+.info_blue{
+  font-size: 24px;
   color: #ffffff;
-  font-size: 32px;
-  mix-blend-mode: darken;
+  text-align:left;
+  margin-left: 32px;
+  margin-right: 66px;
 }
 
 .button3{
-  color: ##ffffff;
+  color: #ffffff;
   font-size: 20px;
   border: solid 4px #ffffff;
   border-radius: 15px;
@@ -207,12 +219,18 @@ p, li, textarea, label, input, select {
   margin-top: 6px;
 }
 
-
-.stereo,
-.tv{
+.feature_1,
+.feature_2,
+.feature_3{
   display: block;
   max-width: 70%;
   mix-blend-mode: darken;
+}
+
+.banner_violet{
+  background-image: url(../bg-violet_2020-12-01/bg-violet.png);
+  display: flex;
+  width:100%;
 }
 
 .banner_image_violet{
@@ -224,6 +242,23 @@ p, li, textarea, label, input, select {
   align-items: flex-end;
   margin-top: 6px;
 }
+
+.banner_blue{
+  background-image: url(../bg-blue_2020-12-02/bg-blue.png);
+  display: flex;
+  width:100%;
+}
+
+.banner_image_blue{
+  background-image: url(../bg-blue_2020-12-02/bg-blue.png);
+  background-position: center;
+  background-size: auto 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 6px;
+}
+
 
 a:hover {
   /* Link color on mouse over */
