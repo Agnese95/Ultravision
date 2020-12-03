@@ -83,7 +83,6 @@ p, li, textarea, label, input, select {
 
 .bloc1{
   display: flex;
-  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -122,18 +121,19 @@ p, li, textarea, label, input, select {
 
 .bloc1_image{
   background-image: url(../bg-yellow_2020-11-30/bg-yellow.png);
-  background-position: left bottom;
+  background-position:left bottom;
   background-size: auto 100%;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
   margin-top: 6px;
 }
+
 
 .ordinateur1{
   display: block;
   max-width: 70%;
   mix-blend-mode: darken;
+  margin-left: auto;
+  margin-top: 32px;
 }
 
 .button {
@@ -217,26 +217,24 @@ p, li, textarea, label, input, select {
   border: solid 4px #ffffff;
   border-radius: 15px;
   display: block;
-  padding: 10px 32px;
-  margin-left: auto;
+  padding: 5px;
+  margin-left:32px;
+  text-align: center;
   max-width: 200px;
 }
 
 .banner_image_red{
-  background-image: url(../bg-red_2020-12-01/bg-red.png);
-  background-position: center;
-  background-size: auto 100%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-top: 6px;
+  margin-left: auto;
 }
 
 .feature_1,
 .feature_2,
 .feature_3{
   display: block;
-  max-width: 70%;
+  max-width: 80%;
   mix-blend-mode: darken;
 }
 
@@ -247,13 +245,10 @@ p, li, textarea, label, input, select {
 }
 
 .banner_image_violet{
-  background-image: url(../bg-violet_2020-12-01/bg-violet.png);
-  background-position: center;
-  background-size: auto 100%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-top: 6px;
+  margin-left: auto;
 }
 
 .banner_blue{
@@ -263,19 +258,14 @@ p, li, textarea, label, input, select {
 }
 
 .banner_image_blue{
-  background-image: url(../bg-blue_2020-12-02/bg-blue.png);
-  background-position: center;
-  background-size: auto 100%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-top: 6px;
+  margin-left: auto;
 }
 
 .container_releases{
   background-color: #231f20;
-  background-position: center;
-  padding: 64px 30px 597px 34px;
   }
 
 .container_images{
@@ -284,22 +274,20 @@ p, li, textarea, label, input, select {
   grid-gap: 32px;
 }
 
-.title_realeses{
+.title_releases{
   color: #ffffff;
   font-size: 40px;
   text-align: center;
-  font-family: 80px;
+  font-weight: bold;
 }
 
-.game_image{
+.game_1{
   position:relative;
-  max-width: 320px;
-  margin: auto;
-  color: #ffffff;
-  margin-bottom: 32px;
+  text-align: center;
 }
 
 .game_content{
+  position:absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -307,8 +295,6 @@ p, li, textarea, label, input, select {
   background-color: rgba(0,0,0,.81);
   border-radius: 15px;
   font-size: 16px;
-  text-align: center;
-  padding:16px;
 }
 
 .game_category{
@@ -338,12 +324,15 @@ p, li, textarea, label, input, select {
   font-weight: normal;
 }
 
+.game_content{
+  opacity:0;
+  transition:800ms transform ease-in-out 200ms opacity;
+  transform:translateY(10px)
+}
 
-
-
-
-a:hover {
-  /* Link color on mouse over */
+.game_1:hover .game_content {
+  opacity:1;
+  transform:translateY(0px);
 }
 
 
