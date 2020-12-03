@@ -25,12 +25,12 @@ p, li, textarea, label, input, select {
    margin-bottom: 8px ;
 }
 
-@media screen and (min-width:780px) {
-  .ultravision{
+@media screen and (min-width:780px){
+  .header{
     font-size: 88px;
   }
 }
-  
+
 
 .title2 {
   background-color: #ff6b00;
@@ -69,6 +69,7 @@ p, li, textarea, label, input, select {
   margin-top: 0px;
   margin-bottom: 8px ;
 }
+
 
 .intro{
   text-align: center;
@@ -123,18 +124,20 @@ p, li, textarea, label, input, select {
   background-image: url(../bg-yellow_2020-11-30/bg-yellow.png);
   background-position:left bottom;
   background-size: auto 100%;
-  display: flex;
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-end;
   margin-top: 6px;
 }
-
 
 .ordinateur1{
   display: block;
   max-width: 70%;
   mix-blend-mode: darken;
   margin-left: auto;
-  margin-top: 32px;
+  margin-top: 40px;
 }
+
 
 .button {
   color: #fcce00;
@@ -266,6 +269,8 @@ p, li, textarea, label, input, select {
 
 .container_releases{
   background-color: #231f20;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 .container_images{
@@ -333,6 +338,50 @@ p, li, textarea, label, input, select {
 .game_1:hover .game_content {
   opacity:1;
   transform:translateY(0px);
+}
+
+.contact {
+  background-color: #231f20;
+  margin:auto;
+}
+
+.formulaire{
+  color:#ffffff;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  font-size: 40px;
+}
+
+.typing {
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+  color:#ffffff;
+  font-size: 16px;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid rgb(245, 242, 242);
+}
+
+
+.input:focus, 
+.textarea:focus {
+  border-color: #000;
+}
+
+.box {
+  vertical-align: top;
+  height: auto;
+}
+
+.button {
+  padding-left: 6px;
+  padding-right: 6px;
+  border-color: #ffffff;
+  margin-left: 100px;
 }
 
 
